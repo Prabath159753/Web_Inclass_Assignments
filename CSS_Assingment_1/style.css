@@ -23,7 +23,7 @@ body > section:nth-child(2) {
 }
 
 body > section:nth-child(3) {
-    background-color: yellow;
+    background-color: orange;
     bottom: 0;
     left: 0;
 }
@@ -84,5 +84,46 @@ body > section > div > div {
     height: 12vh;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body > div {
+    position: absolute;
+    /*background-color: white;*/
+    width: 20vw;
+    height: 20vh;
+}
+
+body > div:nth-child(10) {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body > div:nth-child(11) {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+body > article {
+    position: absolute;
+    background-color: white;
+    width: 17vw;
+    height: 34vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body > article >div:nth-child(1) {
+    position: absolute;
+    background-color: red;
+    width: 10vw;
+    height: 20vh;
+    left: 50%;
+    top: 50%;
+    border-radius: 100%;
     transform: translate(-50%, -50%);
 }
