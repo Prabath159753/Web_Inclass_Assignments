@@ -1,0 +1,31 @@
+/**
+  * @ author : Kavishka Prabath
+  * @ since : 0.1.0
+**/
+
+/* main sections */
+body > section {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+}
+body > section:nth-child(1){
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+body > section:nth-child(2){
+    background-color: green;
+    top: 0;
+    right: 0;
+}
+body > section:nth-child(3){
+    background-color: yellow;
+    bottom: 0;
+    left: 0;
+}
+body > section:nth-child(4){
+    background-color: deeppink;
+    bottom: 0;
+    right: 0;
+}
