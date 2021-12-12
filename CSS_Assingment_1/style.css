@@ -9,23 +9,59 @@ body > section {
     width: 50vw;
     height: 50vh;
 }
-body > section:nth-child(1){
+
+body > section:nth-child(1) {
     background-color: red;
     top: 0;
     left: 0;
 }
-body > section:nth-child(2){
+
+body > section:nth-child(2) {
     background-color: green;
     top: 0;
     right: 0;
 }
-body > section:nth-child(3){
+
+body > section:nth-child(3) {
     background-color: yellow;
     bottom: 0;
     left: 0;
 }
-body > section:nth-child(4){
+
+body > section:nth-child(4) {
     background-color: deeppink;
     bottom: 0;
     right: 0;
+}
+
+/* for circles */
+body > aside {
+    position: absolute;
+    background: white;
+    width: 10vw;
+    height: 20vh;
+}
+
+body > aside:nth-child(5) {
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+}
+
+body > aside:nth-child(6) {
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+
+body > aside:nth-child(7) {
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+
+body > aside:nth-child(8) {
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
 }
