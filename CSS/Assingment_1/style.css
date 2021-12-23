@@ -86,3 +86,31 @@ body > section > div > div {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* center box */
+body > article {
+    position: absolute;
+    background-color: white;
+    width: 16vw;
+    height: 32vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* center circle */
+body > article >div:nth-child(1) {
+    position: absolute;
+    background: red;
+    width: 10vw;
+    height: 20vh;
+    border-radius: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+}
