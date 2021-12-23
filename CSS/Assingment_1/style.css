@@ -65,3 +65,24 @@ body > aside:nth-child(8) {
     right: 0;
     border-top-left-radius: 100%;
 }
+
+body > section > div {
+    position: absolute;
+    background-color: white;
+    width: 15vw;
+    height: 30vh;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+}
+
+body > section > div > div {
+    position: absolute;
+    background-color: red;
+    width: 6vw;
+    height: 12vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
