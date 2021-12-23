@@ -33,3 +33,35 @@ body > section:nth-child(4) {
     bottom: 0;
     right: 0;
 }
+
+/* for circles */
+body > aside {
+    position: absolute;
+    background-color: white;
+    width: 10vw;
+    height: 20vh;
+}
+
+body > aside:nth-child(5) {
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+}
+
+body > aside:nth-child(6) {
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+
+body > aside:nth-child(7) {
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+
+body > aside:nth-child(8) {
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+}

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/css/Assingment_1/Assingment_1.iml" filepath="$PROJECT_DIR$/css/Assingment_1/Assingment_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/css/CSS.iml" filepath="$PROJECT_DIR$/css/CSS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSS/Assingment_1/Assingment_1.iml" filepath="$PROJECT_DIR$/CSS/Assingment_1/Assingment_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSS/CSS.iml" filepath="$PROJECT_DIR$/CSS/CSS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Web_Inclass_Assignments.iml" filepath="$PROJECT_DIR$/Web_Inclass_Assignments.iml" />
     </modules>
   </component>
