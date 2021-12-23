@@ -99,7 +99,7 @@ body > article {
 }
 
 /* center circle */
-body > article >div:nth-child(1) {
+body > article > div:nth-child(1) {
     position: absolute;
     background: red;
     width: 10vw;
@@ -113,4 +113,30 @@ body > article >div:nth-child(1) {
     /* left: 50%;
     top: 50%;
     transform: translate(-50%, -50%); */
+}
+
+/* top center & bottom circles */
+body > div {
+    width: 15vw;
+    height: 20vh;
+    background: white;
+    position: absolute;
+}
+
+body > div:nth-child(10) {
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    border-bottom-right-radius: 20vw;
+    border-bottom-left-radius: 20vw;
+}
+
+body > div:nth-child(11) {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-top-right-radius: 20vw;
+    border-top-left-radius: 20vw;
 }
