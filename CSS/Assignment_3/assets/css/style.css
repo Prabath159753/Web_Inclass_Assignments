@@ -43,7 +43,7 @@ body > section:nth-child(2) {
     transform: translate(-50%, -50%);
 }
 
-body > section:nth-child(2) > div > p {
+body > section > div > p {
     position: absolute;
     font-size: 50px;
     text-align: center;
@@ -54,4 +54,20 @@ body > section:nth-child(2) > div > p {
     top: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
+}
+
+body > section:nth-child(3) {
+    position: relative;
+    height: 100vh;
+}
+
+body > section:nth-child(3) > div {
+    position: absolute;
+    background: #10aaf1;
+    height: 342px;
+    width: 342px;
+    border-radius: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
