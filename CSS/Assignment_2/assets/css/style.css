@@ -61,7 +61,7 @@ body > main > nav {
     background-color: #4d1da7;
     position: absolute;
     top: 0;
-    /*bottom: 0;*/
+    bottom: 0;
 }
 
 main > nav > ul {
@@ -94,4 +94,41 @@ main > nav > ul > li > i {
     color: white;
     cursor: pointer;
     padding-right: 10px;
+}
+
+main > section {
+    margin-left: 270px;
+    padding: 10px;
+    min-height: 587px;
+}
+
+/* main> section content started*/
+main > section > section {
+    height: 350px;
+    position: relative;
+}
+
+main > section > section > img {
+    position: absolute;
+    border: 5px solid white;
+    height: 100%;
+    width: calc(100% / 3);
+}
+
+main > section > section > img:nth-child(1) {
+    border-right: 5px solid white;
+    left: 0;
+    background-size: cover;
+}
+
+main > section > section > img:nth-child(2) {
+    border-left: 5px solid white;
+    left: calc(100% / 3);
+    background-size: cover;
+}
+
+main > section > section > img:nth-child(3) {
+    left: calc((100% / 3) * 2);
+    border-left: 5px solid white;
+    background-size: cover;
 }
