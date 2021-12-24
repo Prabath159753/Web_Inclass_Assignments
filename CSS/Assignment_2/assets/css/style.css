@@ -132,3 +132,16 @@ main > section > p {
     font-family: 'Ubuntu', sans-serif;
     color: black;
 }
+
+/* footer started */
+body > footer {
+    height: 40px;
+    background-color: dimgray;
+}
+footer > p {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0;
+}
