@@ -2,3 +2,32 @@
   * @ author : Kavishka Prabath
   * @ since : 0.1.0
 **/
+
+body > section:nth-child(1) {
+    position: relative;
+    height: 100vh;
+    z-index: 2;
+}
+
+body > section:nth-child(1) > div:nth-child(1) {
+    position: fixed;
+    border: 20px solid grey;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body > section:nth-child(1) > div:nth-child(2) {
+    position: fixed;
+    border: 20px solid red;
+    width: 361px;
+    height: 361px;
+    border-radius: 100%;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+}
