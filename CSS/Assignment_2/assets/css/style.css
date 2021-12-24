@@ -3,11 +3,6 @@
   * @ since : 0.1.0
 **/
 
-/** {*/
-/*    font-family: 'Ubuntu', sans-serif;*/
-/*    color: #554c4c;*/
-/*}*/
-
 /* header start */
 header {
     position: relative;
@@ -102,7 +97,7 @@ main > section {
     min-height: 587px;
 }
 
-/* main> section content started*/
+/* main> section content started */
 main > section > section {
     height: 350px;
     position: relative;
@@ -131,4 +126,9 @@ main > section > section > img:nth-child(3) {
     left: calc((100% / 3) * 2);
     border-left: 5px solid white;
     background-size: cover;
+}
+
+main > section > p {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
 }
