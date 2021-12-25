@@ -1,0 +1,45 @@
+/**
+  * @ author : Kavishka Prabath
+  * @ since : 0.1.0
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body > section:nth-child(1) {
+    position: relative;
+    height: 100vh;
+}
+
+body > section:nth-child(1) > div:nth-child(1) {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    background: #fa5f43;
+    z-index: 2;
+}
+
+body > section:nth-child(1) > div:nth-child(1) > p {
+    position: absolute;
+    font-size: 32px;
+    color: white;
+    left: 20px;
+    top: 50%;
+    font-family: serif;
+    transform: translate(0, -50%);
+}
+
+body > section:nth-child(1) > div:nth-child(2) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body > section:nth-child(1) > div:nth-child(2) > p {
+    font-size: 100px;
+    font-weight: 600;
+    font-family: serif;
+}
