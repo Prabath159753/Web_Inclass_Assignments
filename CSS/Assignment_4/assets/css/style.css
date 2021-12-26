@@ -8,6 +8,7 @@
     padding: 0;
 }
 
+/* -- card 1 -- */
 body > section:nth-child(1) {
     position: relative;
     height: 100vh;
@@ -17,13 +18,13 @@ body > section:nth-child(1) > div:nth-child(1) {
     position: sticky;
     top: 0;
     height: 50px;
-    background: #fa5f43;
+    background: red;
     z-index: 2;
 }
 
 body > section:nth-child(1) > div:nth-child(1) > p {
     position: absolute;
-    font-size: 32px;
+    font-size: 30px;
     color: white;
     left: 20px;
     top: 50%;
@@ -39,6 +40,43 @@ body > section:nth-child(1) > div:nth-child(2) {
 }
 
 body > section:nth-child(1) > div:nth-child(2) > p {
+    font-size: 100px;
+    font-weight: 600;
+    font-family: serif;
+}
+
+/* -- card 2 -- */
+body > section:nth-child(2) {
+    position: relative;
+    height: 100vh;
+    background: #3caaeb;
+}
+
+body > section:nth-child(2) > div:nth-child(1) {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    background: blue;
+}
+
+body > section:nth-child(2) > div:nth-child(1) > p {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 20px;
+    top: 50%;
+    font-family: serif;
+    transform: translate(0, -50%);
+}
+
+body > section:nth-child(2) > div:nth-child(2) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body > section:nth-child(2) > div:nth-child(2) > p {
     font-size: 100px;
     font-weight: 600;
     font-family: serif;
