@@ -1,6 +1,8 @@
 # Cascade Style Sheets ( CSS )
 ## CSS Positions
-![homePage]()
+### Case 1 design :-
+
+![homePage](https://github.com/Prabath159753/Web_Inclass_Assignments/blob/master/CSS/Assingment_1/assets/images/screenshot.JPG)
 
 <!-- USAGE EXAMPLES -->
 ### Usage
